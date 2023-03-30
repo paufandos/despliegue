@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1 id="titulo">Titulo</h1>
+
+<script>
+fetch('http://localhost:3000/refugiados/1')
+.then((response) => response.json())
+.then((data)=> {
+    element=document.getElementById("titulo")
+    element.innerHTML=data.nombre
+})
+.catch( err => console.error(err));
+</script>
+
+</body>
+
+
+</html>

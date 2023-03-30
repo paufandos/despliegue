@@ -1,0 +1,12 @@
+{
+    "refugiados":[
+        {
+            "id":1,
+            "nombre":"juan"
+        },
+        {
+            "id":2,
+            "nombre":"pepe"
+        }
+    ]
+}
